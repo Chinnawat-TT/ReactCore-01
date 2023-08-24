@@ -7,10 +7,19 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
 }
 
 body {
     height: 100vh;
     font-family: 'poppins', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-rows: 4, 500px;
+    grid-template-columns: 5,1fr;
+}
+.card{
+    border: 1px solid grey;
+   
 }

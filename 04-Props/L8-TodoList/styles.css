@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
 }
 
 body {
@@ -34,4 +34,16 @@ h1 {
 
 .text-blue {
     color: blue;
+}
+.input{
+    width: 200px;
+    height: 50px;
+}
+.add{
+    width: 50px;
+    height: 50px;
+}
+.task{
+    display: flex;
+    
 }

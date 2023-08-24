@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
 }
 
 body {
@@ -34,4 +34,19 @@ h1 {
 
 .text-blue {
     color: blue;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+.card__para{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 50px;
 }

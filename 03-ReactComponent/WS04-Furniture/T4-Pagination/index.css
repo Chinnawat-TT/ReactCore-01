@@ -7,10 +7,24 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /* root 16px * 0.625 == 10px */
 }
 
 body {
     height: 100vh;
     font-family: 'poppins', sans-serif;
+}
+
+.text-1{
+display: flex;
+font-size: 24px;
+justify-content: space-evenly;
+}
+.a-text{
+    border: 1px solid ;
+    text-decoration: none;
+    padding: 20px 25px;
+    display: inline-block;
+    background: antiquewhite;
+    border-radius: 5px;
 }

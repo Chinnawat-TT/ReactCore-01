@@ -7,10 +7,65 @@
 }
 
 html {
-    font-size: 62.5%; // root 16px * 0.625 == 10px
+    font-size: 62.5%; /* root 16px * 0.625 == 10px*/
 }
 
 body {
     height: 100vh;
     font-family: 'urbanist', sans-serif;
+}
+.text-app{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.head{
+    margin: auto;
+    padding-left: 15px;
+}
+.text-header{
+margin: auto;
+color: #29005F;
+font-family: Urbanist;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.42px;
+}
+.text-hero{
+width: 700px;
+height: 874px;
+flex-shrink: 0;
+}
+.text-info{
+color: #000;
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px
+}
+.text-contactEmail{
+
+width: 302px;
+height: 44px;
+padding: 10px 231px 10px 14px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #29005F;
+
+}
+.text-contactSubmit{
+
+width: 135px;
+height: 44px;
+padding: 0px 48px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--purple, #29005F);
+color: aliceblue;
 }
